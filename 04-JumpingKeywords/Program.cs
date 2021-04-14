@@ -27,13 +27,13 @@ namespace _04_JumpingKeywords
             //{
             //    if (i==5)
             //    {
-            //        break; // koşul sağlanıp break anaktar kelimesi okunduğu yerde döngü biter (kırılır) ve döngü dışına çıkar ve kod akışı devam eder.. 
+            //        break; // koşul sağlanıp break anaktar kelimesi okunduğu yerde döngü biter (kırılır) ve döngü dışına çıkar... 
 
             //    }
             //    Console.WriteLine(i);// 5 okunmaz döngü 4 de sonlanır bir alt scope geçer
             //}
 
-            //Console.WriteLine("Beni Oku");//döngü 5 e geldiğinde direk bu alana gelir ve kod akışı devam eder..
+            //Console.WriteLine("Beni Oku");//döngü 5 e geldiğinde direk bu alana gelir ve kod akışı buradan devam eder..
 
             //for (int i = 0; i < 10; i++)
             //{
@@ -55,7 +55,7 @@ namespace _04_JumpingKeywords
             //        return;//Koşul sağlanır sağlanmaz sayfanın en altında bulunan scope dışına çıkar yani sayfadan atar...
             //    }
             //}
-            //Console.WriteLine("Beni Oku");
+            //Console.WriteLine("Beni Oku");//Bu alan okunmaz..
 
             Console.ReadKey();
         }
