@@ -213,9 +213,21 @@ namespace _03_Loops_Donguler
 
             #endregion
 
-            #region Kullanıcı 0 girene kadar kullanıcının girdiği tüm sayıları toplayıp ekrana bilgisi verilecek. 
+            #region Kullanıcı rakamla '0' girene kadar kullanıcının girdiği tüm sayıları toplayıp ekrana çıktısı verilecek. 
 
-
+            //int toplam = 0;
+            //string value = string.Empty;
+            //do
+            //{
+            //    Console.WriteLine("Değer giriniz");
+            //    value = Console.ReadLine();
+            //    bool check = int.TryParse(value, out int sayi);
+            //    if (check)
+            //    {
+            //        toplam += sayi;
+            //    }
+            //} while (value!="0");
+            //Console.WriteLine($"Kullanıcının girmiş olduğu sayıların toplamı : {toplam}");
 
             #endregion
 
