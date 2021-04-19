@@ -79,23 +79,24 @@ namespace _06_ArrayMethods
             //kullanıcı ok diyene kadar girdiği değerleri diziye dahil etme işlemi gerçekleştirdim..
 
             //string[] sehirler = new string[0];
-            //string sehir = string.Empty;
+            //string value = string.Empty;
+
             //do
             //{
-            //    Console.WriteLine("sehir ismi giriniz");
-            //     sehir= Console.ReadLine();
+            //    Console.WriteLine("sehir adı giriniz");
+            //    value = Console.ReadLine();
             //    Array.Resize(ref sehirler, sehirler.Length + 1);
-            //    sehirler[sehirler.Length - 1] = sehir;
+            //    sehirler[sehirler.Length - 1] = value;
 
-            //} while (sehir!="ok");
+            //} while (value!="ok");
 
-            ////Array.Clear(sehirler, sehirler.Length - 1, 1);
             //Array.Resize(ref sehirler, sehirler.Length - 1);
+            ////Array.Clear(sehirler, sehirler.Length - 1, 1);
+
             //foreach (string item in sehirler)
             //{
             //    Console.WriteLine(item);
             //}
-
             #endregion
 
             #region Index Bulma

@@ -48,8 +48,53 @@ namespace _07_MethodIntro
 
             //Toplam(value1, value2);
 
+            //Kare Alanı hesaplama işlemi
+
+            //Console.WriteLine("Kare kenarı giriniz");
+            //int kenar = int.Parse(Console.ReadLine());
+            //Console.WriteLine(KareAlan(kenar));
+
+            //Console.WriteLine("İsim giriniz");
+            //string FirstName = Console.ReadLine();
+            //Console.WriteLine("Soyisim giriniz");
+            //string LastName = Console.ReadLine();
+
+            //Console.WriteLine(FirstName+LastName+MailUzantisi());
+
+
+
+            //Kullanıcıdan iki sayı alıp bu iki sayıdan buyuk olanı geri dönen metotu oluşturun.
+
+
+            //Console.WriteLine("1. sayıyı giriniz");
+            //int sayi1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("2. sayıyı giriniz");
+            //int sayi2 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(Kontrol(sayi1,sayi2));
+
 
             Console.ReadKey();
+        }
+
+
+        static int Kontrol(int s1,int s2)
+        {
+            if (s1 > s2)
+            {
+                return s1;
+            }
+            else return s2;
+        }
+
+        static string MailUzantisi()
+        {
+            return "@gmail.com";
+        }
+
+        static int KareAlan(int sayi)
+        {
+            return sayi * sayi;
         }
 
         static void Toplam(string s1,string s2)
