@@ -231,6 +231,21 @@ namespace _03_Loops_Donguler
 
             #endregion
 
+           
+            #region Kullanıcıdan alınan metni ters cevirip yazılacak.  Ali ilA
+
+            //Console.WriteLine("metin giriniz");
+            //string value = Console.ReadLine();
+
+
+            //for (int i = value.Length - 1; i >= 0; i--)
+            //{
+            //    Console.Write(value[i]);
+            //} 
+            #endregion
+
+
+
             Console.ReadKey();
         }
     }

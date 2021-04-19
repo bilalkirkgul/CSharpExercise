@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-JumpingKeywords", "04-Ju
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-ArrayAndLoops", "05-ArrayAndLoops\05-ArrayAndLoops.csproj", "{0C82EC30-8B27-4677-BCD8-1A934CBE1380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-ArrayMethods", "06-ArrayMethods\06-ArrayMethods.csproj", "{5CE787EE-CB1E-4753-929E-CC6C8CD0E4CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0C82EC30-8B27-4677-BCD8-1A934CBE1380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C82EC30-8B27-4677-BCD8-1A934CBE1380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C82EC30-8B27-4677-BCD8-1A934CBE1380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE787EE-CB1E-4753-929E-CC6C8CD0E4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE787EE-CB1E-4753-929E-CC6C8CD0E4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE787EE-CB1E-4753-929E-CC6C8CD0E4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE787EE-CB1E-4753-929E-CC6C8CD0E4CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
