@@ -97,6 +97,26 @@ namespace _06_ArrayMethods
             //{
             //    Console.WriteLine(item);
             //}
+
+
+            //List<string> sehirler = new List<string>();
+            //string sehir = string.Empty;
+
+            //do
+            //{
+            //    Console.WriteLine("Şehir isimleri giriniz");
+            //    sehir = Console.ReadLine();
+            //    sehirler.Add(sehir);
+
+            //} while (sehir!="ok");
+
+            //sehirler.Remove("ok");
+
+            //foreach (string item in sehirler)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
             #endregion
 
             #region Index Bulma
