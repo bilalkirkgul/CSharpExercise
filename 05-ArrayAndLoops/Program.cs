@@ -94,30 +94,30 @@ namespace _05_ArrayAndLoops
             //her string ifade char dizisidir..
 
 
-            //int sayac = 0;
+            int sayac = 0;
 
-            //Console.WriteLine("Metin giriniz");
-            //string metin = Console.ReadLine();
-            //Console.WriteLine("Karakter giriniz");
-            //char karakter = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Metin giriniz");
+            string metin = Console.ReadLine();
+            Console.WriteLine("Karakter giriniz");
+            char karakter = Convert.ToChar(Console.ReadLine());
 
-            ////for (int i = 0; i < metin.Length; i++)
-            ////{
-            ////    if (karakter==metin[i])
-            ////    {
-            ////        sayac++;
-            ////    }
-            ////}
-
-            //foreach (char item in metin)
+            //for (int i = 0; i < metin.Length; i++)
             //{
-            //    if (item==karakter)
+            //    if (karakter == metin[i])
             //    {
             //        sayac++;
             //    }
             //}
 
-            //Console.WriteLine($"{metin} metin içerisinde \n{karakter} Karakteri\nToplamda {sayac} adet vardır");
+            foreach (char item in metin)
+            {
+                if (item == karakter)
+                {
+                    sayac++;
+                }
+            }
+
+            Console.WriteLine($"{metin} metin içerisinde \n{karakter} Karakteri\nToplamda {sayac} adet vardır");
 
             #endregion
 

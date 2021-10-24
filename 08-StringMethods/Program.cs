@@ -50,6 +50,45 @@ namespace _08_StringMethods
 
             #endregion
 
+            #region Metin sağ ve sol tarafından karakter silme işlemi
+            //string text2 = "      a-Bilal kırkgül-     ";
+            //Console.WriteLine(text2.Length);
+            //string metin2 = text2.Trim();
+            //Console.WriteLine(metin2);
+            //string metin3 = text2.Trim('-', 'a', ' ');
+            //Console.WriteLine(metin3);
+
+            int[] sayilar = { 324567, 8, 56, 79, 9, 5, 3, 4, 9 };
+            string sayiMetni = "";
+            foreach (int item in sayilar)
+            {
+                sayiMetni += item + "_";
+            }
+            Console.WriteLine(sayiMetni.TrimEnd('_'));
+            //Console.WriteLine(sayiMetni.Trim('_'));
+
+            #endregion
+
+
+            #region parametre olarak verilen ayırac ile metni string dizilere ayırır
+            //string[] metinDizisi = sayiMetni.Trim('_').Split('_');
+
+            //foreach (var item in metinDizisi)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            //string metin = "gfghf gfh gj fgh ghk jk ty ury kuy k";
+            //foreach (string item in metin.Split(' '))
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
             #region Kullanıcıdan alınan metinsel ifade Ada veya ada veya aDa vaya ADA veya adA veya ADa ise giriş yapılsın değil ise giriş yapılamasın
 
             //Console.WriteLine("Metin Giriniz");
