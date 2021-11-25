@@ -38,6 +38,15 @@ namespace _09_CharMethods
             //    Console.WriteLine("boşluk yok");
             //}
 
+            //if (char.IsNumber('2'))
+            //{
+            //    Console.WriteLine("sayıdır");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("sayı değildir");
+            //}
+
             Console.ReadKey();
 
         }

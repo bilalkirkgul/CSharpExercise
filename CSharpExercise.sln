@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-StringMethods", "08-Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-CharMethods", "08-CharMethods\09-CharMethods.csproj", "{FB6DD434-50A5-4CFF-A58C-BC29E818BC39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-List", "10-List\10-List.csproj", "{07DD669B-75E2-491E-91E8-5FB148570B4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{FB6DD434-50A5-4CFF-A58C-BC29E818BC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB6DD434-50A5-4CFF-A58C-BC29E818BC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB6DD434-50A5-4CFF-A58C-BC29E818BC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DD669B-75E2-491E-91E8-5FB148570B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DD669B-75E2-491E-91E8-5FB148570B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DD669B-75E2-491E-91E8-5FB148570B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DD669B-75E2-491E-91E8-5FB148570B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
