@@ -73,10 +73,25 @@ namespace _07_MethodIntro
 
             //Console.WriteLine(Kontrol(sayi1,sayi2));
 
+            Console.WriteLine(FirstReverse(Console.ReadLine()));
+
+
 
             Console.ReadKey();
         }
 
+
+        static string FirstReverse(string str)
+        {
+            var metin=string.Empty;
+
+            for (int i = str.Length-1; i >=0; i--)
+            {
+               metin += str[i];
+            }
+            return metin;
+
+        }
 
         static int Kontrol(int s1,int s2)
         {

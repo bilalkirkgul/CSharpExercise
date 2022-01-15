@@ -23,6 +23,31 @@ namespace _04_JumpingKeywords
             //    Console.WriteLine(i);
             //}
 
+
+            #region kullanıcıdan bir metin ve bir karakter alınacak. metin içerisinde karakter bulunup büyük harfe çevrilecek
+
+            //Console.WriteLine("Metin giriniz");
+            //string metin = Console.ReadLine();
+            //Console.WriteLine("Karakter giriniz");
+            //string karakter = Console.ReadLine();
+
+            //string yeniMetin = string.Empty;
+
+            //foreach (char item in metin)
+            //{
+            //    if (item == Convert.ToChar(karakter))
+            //    {
+            //        yeniMetin += karakter.ToUpper();
+            //        continue;
+            //    }
+
+            //    yeniMetin += item;
+            //}
+            //Console.WriteLine(yeniMetin);
+
+            #endregion
+
+
             //for (int i = 1; i <10; i++)
             //{
             //    if (i==5)

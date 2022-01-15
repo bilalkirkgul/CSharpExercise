@@ -160,6 +160,11 @@ namespace _03_Loops_Donguler
             //Console.WriteLine("Sifre Giriniz");
             //string password = Console.ReadLine();
 
+            //Bir defa ekrana yazı vermek için kod tekrarı yaptık
+            //Koşul sağlanmazsa while döngüsü içerisine giriyor..
+            //while döngüsü içerisinde koşul sağlanana kadar kalıyor.
+
+
             //while (userName != "admin" || password != "123")
             //{
             //    Console.WriteLine("Yanlış Giriş");
@@ -236,6 +241,8 @@ namespace _03_Loops_Donguler
 
             //Console.WriteLine("metin giriniz");
             //string value = Console.ReadLine();
+
+            //value char dizisi, dizinin birinci elemanı 0. indexte yer alır. örneğin 5 elemanlı bir dizinin son elemanı 4. indexte yer alır.. lenght - 1 demezsek dizi elaman sınırı dışına çıkmış oluruz ve hata alırız. 
 
 
             //for (int i = value.Length - 1; i >= 0; i--)

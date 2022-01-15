@@ -38,9 +38,19 @@ namespace _08_StringMethods
             //Console.WriteLine(text.Replace("Bilal", "Hilal"));
             //Console.WriteLine(fullName);
 
-            //Console.WriteLine(text.Replace('B','N'));
+            //Console.WriteLine(text.Replace('l', 'N'));
+            string value = string.Empty;
+            foreach (char item in text)
+            {
+             if (item=='l')
+                {
+                    value += 'L';
+                    continue;
+                }
+                value += item;        
+            }
 
-
+            //Console.WriteLine(value);
             #endregion
 
             #region Metnin bir parçasını alma işlemi.
@@ -51,32 +61,41 @@ namespace _08_StringMethods
             #endregion
 
             #region Metin sağ ve sol tarafından karakter silme işlemi
-            //string text2 = "      a-Bilal kırkgül-     ";
+
+
+
+            string text2 = "      a-Bilal kırkgül-     ";
             //Console.WriteLine(text2.Length);
-            //string metin2 = text2.Trim();
-            //Console.WriteLine(metin2);
-            //string metin3 = text2.Trim('-', 'a', ' ');
-            //Console.WriteLine(metin3);
+
+
+            string metin2 = text2.Trim();
+            Console.WriteLine(metin2);
+
+            string metin3 = text2.Trim('-', 'a', ' ');
+            Console.WriteLine(metin3);
 
             int[] sayilar = { 324567, 8, 56, 79, 9, 5, 3, 4, 9 };
+            Array.Sort(sayilar);
+            Array.Reverse(sayilar);
             string sayiMetni = "";
             foreach (int item in sayilar)
             {
                 sayiMetni += item + "_";
             }
-            Console.WriteLine(sayiMetni.TrimEnd('_'));
+            //Console.WriteLine(sayiMetni.TrimEnd('_'));
             //Console.WriteLine(sayiMetni.Trim('_'));
 
             #endregion
 
 
             #region parametre olarak verilen ayırac ile metni string dizilere ayırır
-            //string[] metinDizisi = sayiMetni.Trim('_').Split('_');
+            //Trim ile baştaki ve sonraki - ifadesini kaldırdık. metinin içerisinde yer alan - ' yi baz alarak split'le bölme işlemi yaparak ekrana yazdırdık.
+            string[] metinDizisi = sayiMetni.Trim('_').Split('_');
 
-            //foreach (var item in metinDizisi)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            foreach (var item in metinDizisi)
+            {
+                Console.WriteLine(item);
+            }
 
 
 
@@ -106,6 +125,7 @@ namespace _08_StringMethods
 
             #region Kullanıcıdan bir şifre alınsın bu şifre içerisinde ^+%&/()= ifadelerinden en az birini içermek zorundadır. İçeriyorsa şifreniz kabul edildi içermiyorsa şifreniz kabul edilmedi çıktısı alınsın.
 
+
             //Console.WriteLine("Şifre giriniz");
             //string password = Console.ReadLine();
             //bool check = false;
@@ -125,9 +145,6 @@ namespace _08_StringMethods
             //{
             //    Console.WriteLine("Şifreniz kabul edildi");
             //}else Console.WriteLine("Şifreniz Kabul edilmedi");
-
-
-
 
             #endregion
 
@@ -182,8 +199,15 @@ namespace _08_StringMethods
 
             #region ali-ayşe-mehmet-yasemin-ahmet-fatma isim listesindeki degerler baş harfi buyuk diğer harfleri küçük olacak şekilde alt alta listeleyin 
 
-            //string deger = "ali-ayŞe-mehmEt-yaseMin-ahmet-fatma";
-            //string[] isimDizisi = deger.Split('-');
+            string deger = "ali-ayŞe-mehmEt-yaseMin-ahmet-fatma";
+            string[] isimDizisi = deger.Split('-');
+
+            List<string> names = new List<string>(deger.Split('-'));
+
+            foreach (var item in names)
+            {
+                //Console.WriteLine(item.Substring(0,1).ToUpper()+item.Substring(1).ToLower());
+            }
 
             //foreach (string item in isimDizisi)
             //{
