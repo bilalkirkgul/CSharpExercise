@@ -26,6 +26,11 @@ namespace _10_List
 
             //categories.AddRange(categories1); // addRange() arka tarata foreach kullanıyor.
 
+            //foreach (Category item in categories)
+            //{
+            //    categories1.Add(item);
+            //}
+
             foreach (Category item in categories1)
             {
                 categories.Add(item);//item objenin bütün propertylerini kapsıyor..
