@@ -73,13 +73,22 @@ namespace _07_MethodIntro
 
             //Console.WriteLine(Kontrol(sayi1,sayi2));
 
-            Console.WriteLine(FirstReverse(Console.ReadLine()));
+            //Console.WriteLine(FirstReverse(Console.ReadLine()));
 
+            Console.WriteLine(FirstFactorial(int.Parse(Console.ReadLine())));
 
 
             Console.ReadKey();
         }
+        public static int FirstFactorial(int num)
+        {
+            for (int i = num - 1; i >= 1; i--)
+            {
+                num *= i;
+            }
+            return num;
 
+        }
 
         static string FirstReverse(string str)
         {

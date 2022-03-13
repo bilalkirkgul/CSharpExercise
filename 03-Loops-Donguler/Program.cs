@@ -73,6 +73,8 @@ namespace _03_Loops_Donguler
 
             #region iç içe döngü aşağıdaki görüntüyü ekrana yazdırma
 
+            //içerideki döngü kırılana kadar döner sonra dış daki döngüyü çalıştırır tekrardan içerideki döngüye devam eder...
+
             /*
                 a=>1
                 b=>1
@@ -134,7 +136,7 @@ namespace _03_Loops_Donguler
             //    if (userName=="admin"&&password=="1234")
             //    {
             //        check = true;
-            //        i = 5;
+            //        break;
             //    }
 
             //}
@@ -147,7 +149,7 @@ namespace _03_Loops_Donguler
             //    Console.WriteLine("Hoşgeldiniz");
             //}
 
-
+            //Console.WriteLine(check == true ? "Hoşgeldiniz" : "Giriş hakkınız kalmadı");
             #endregion
 
             #region Kullanıcıdan kullanıcı adı ve password alınacak. Kullanıcı doğru girene kadar sormaya devam edecek kod hazırlanacak..
@@ -236,7 +238,7 @@ namespace _03_Loops_Donguler
 
             #endregion
 
-           
+
             #region Kullanıcıdan alınan metni ters cevirip yazılacak.  Ali ilA
 
             //Console.WriteLine("metin giriniz");

@@ -126,8 +126,36 @@ namespace _01_IntroductionExercise
             //Console.WriteLine(check);
 
             #endregion
-   
+
+            //Console.WriteLine(FirstFactorial(Console.ReadLine()));
+
+            Console.WriteLine(FirstReverse(Console.ReadLine()));
+
+
+
             Console.ReadKey();
         }
+
+        static int FirstFactorial(int num)
+        {
+            for (int i = num-1; i >= 1; i--)
+            {
+                num *= i;
+            }
+            return num;
+        }
+
+        static string FirstReverse(string str)
+        {
+            string value = string.Empty;
+            for (int i = str.Length-1; i >= 0; i--)
+            {
+
+                value += str[i];
+            }
+            str = value;
+            return str;
+        }
+
     }
 }
